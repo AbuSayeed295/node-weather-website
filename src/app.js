@@ -37,7 +37,7 @@ app.get('/help',(req,res)=>{
     // res.send('Help page')
     res.render('help',{
         title: 'help',
-        info: 'For basic learning, you have to go through other things also',
+        // info: 'For basic learning, you have to go through other things also',
         name:'Abu Sayeed'
     })
 })
